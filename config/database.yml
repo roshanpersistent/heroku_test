@@ -1,8 +1,8 @@
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: mysql
+  database: test_dev
+  username: root
+  password: root
 
 production:
   adapter: sqlite3
