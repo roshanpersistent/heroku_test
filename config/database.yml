@@ -1,11 +1,20 @@
+development:
+  adapter: mysql
+  database: test_dev
+  username: root
+  password: root
+  host : 127.0.0.1
+
 test:
   adapter: mysql
   database: test_dev
   username: root
   password: root
+  host : 127.0.0.1
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
-  timeout: 5000
+  adapter: mysql
+  database: prod_test
+  username: root
+  password: root
+  host : 127.0.0.1
