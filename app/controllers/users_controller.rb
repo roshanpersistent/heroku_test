@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  # GET /users
+  # GET /users this 
   # GET /users.xml
   def index
     @users = User.all
